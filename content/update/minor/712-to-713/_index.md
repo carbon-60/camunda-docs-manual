@@ -335,7 +335,7 @@ ProcessInstance processInstance = runtimeService.startProcessInstanceByKey("oneT
 executeJob(processInstancJob);
 ```
 
-Before this minor release, the historic variable `invoiceId` would be stored only after the job execution in step 2.
+Before this minor release, the historic variable `invoiceId` would have been stored only after the job execution in step 2.
 That behavior differed from the rest of the use cases where variables are set on process instance start or later.
 Now they are stored right away to keep the use cases consistent.
 The approach is more natural to how the historic information is stored into the database and helps to resolve issues during process execution and inconsistent information between runtime and historic data.
