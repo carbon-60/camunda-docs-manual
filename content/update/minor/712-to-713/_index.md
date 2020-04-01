@@ -320,7 +320,7 @@ The seed job creation as well as the batch job creation in the seed job will tra
 
 # Historic Process Instance Variables on Asynchronous Instantiation
 
-This concerns only processes that have a start event with [asyncBefore]({{< ref "/reference/bpmn20/events/start-events.md#asynchronous-instantiation" >}}) flag.
+This concerns only processes that have a start event with the [asyncBefore]({{< ref "/reference/bpmn20/events/start-events.md#asynchronous-instantiation" >}}) flag set.
 
 {{< img src="./img/asyncBefore-start-event.svg" title="Asynchronous Instantiation" >}}
 
