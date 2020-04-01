@@ -339,7 +339,7 @@ Before this minor release, the historic variable `invoiceId` would have been sto
 That behavior differed from the rest of the use cases where variables are set on process instance start or later.
 Now they are stored right away to keep the use cases consistent.
 The approach is more natural to how the historic information is stored into the database and helps to resolve issues during process execution and inconsistent information between runtime and historic data.
-In Cockpit, you will notice different activity instance id in the Details for instances started in 7.13.
+In Cockpit, starting from 7.13, you will notice a different activity instance id in the Details for instances.
 
 {{< img src="./img/variable-log.png" title="Variable Log" >}}
 
