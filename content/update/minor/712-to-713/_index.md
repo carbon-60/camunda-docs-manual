@@ -343,4 +343,4 @@ In Cockpit, starting from 7.13, you will notice a different activity instance id
 
 {{< img src="./img/variable-log.png" title="Variable Log" >}}
 
-There it will be the process instance id now. The same is valid if you are using the Java and/or REST API.
+As you can see in the picture above, the variable log shows the process instance id for the activity instead of the start event activity. The same is valid if you are using the Java and/or REST API.
